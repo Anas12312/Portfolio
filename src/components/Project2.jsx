@@ -6,7 +6,7 @@ export default function Project2() {
       window.open('https://github.com/Norhanahmedsaber/HANT_Electronics_FrontEnd', '_blank')
     }}>
       <div className='w-1/4 text-sm text-white mt-1 flex justify-center items-start'>
-        <img className='rounded-md w-20' src="../../public/elec1.png" alt="" />
+        <img className='rounded-md w-20' src="../../elec1.png" alt="" />
       </div>
       <div className='flex flex-col w-3/4 ml-3'>
         <div className=''>
