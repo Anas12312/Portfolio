@@ -6,7 +6,7 @@ export default function Project3() {
       window.open('https://github.com/Norhanahmedsaber/HANT_POS', '_blank')
     }}>
       <div className='w-1/4 text-sm text-white mt-1 flex justify-center items-start'>
-        <img className='rounded-md' src="../../public/pos1.png" alt="" />
+        <img className='rounded-md' src="../../pos1.png" alt="" />
       </div>
       <div className='flex flex-col w-3/4 ml-3'>
         <div className=''>
