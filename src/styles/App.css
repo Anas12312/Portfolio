@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inter'), url('../../public/Inter-4.0/InterVariable.ttf') format('ttf');
+}
+
+.backlight-circle {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+  
+.circle {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	border-radius: 100%;
+	background-color: rgba(255, 255, 255, 0);
+	box-shadow: 
+	  0 0 200px 200px rgba(255, 255, 255, 0.05),
+	  0 0 400px 400px rgba(255, 255, 255, 0.03);
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+  }
+  
+@layer components {
+	.trans {
+        @apply transition-all ease-linear duration-300
+    }
+}   
+
