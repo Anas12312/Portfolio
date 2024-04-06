@@ -5,6 +5,7 @@ import Experience3 from './Experience3'
 import Project from './Project'
 import Project2 from './Project2'
 import Project3 from './Project3'
+import Project4 from './Project4'
 
 export default function List() {
   return (
@@ -33,9 +34,10 @@ export default function List() {
           View Full Resumé
         </div>
         <div className='h-20 my-20 w-full'></div>
+        <Project4 />
         <Project />
-        <Project2 />
         <Project3 />
+        <Project2 />
         <div onClick={()=>{
           window.open('https://www.github.com/anas12312', '_blank')
         }} className='my-2 w-fit flex justify-center items-center border-b-2 text-white cursor-pointer trans hover:border-b-2 hover:border-b-teal-400'>
