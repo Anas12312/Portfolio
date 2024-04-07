@@ -6,7 +6,7 @@ export default function Survey() {
       window.open('https://qxc-survey.onrender.com', '_blank')
     }}>
       <div className='w-1/4 text-sm text-white mt-1'>
-        <img className='rounded-md' src="../../az1.png" alt="" />
+        <img className='rounded-md' src="../../survey.png" alt="" />
       </div>
       <div className='flex flex-col w-3/4 ml-3'>
         <div className=''>
