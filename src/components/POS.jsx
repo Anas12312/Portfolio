@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Project3() {
+export default function POS() {
   return (
     <div className='w-2/3 flex p-5 hover:bg-[#283b64] rounded-lg trans cursor-pointer mb-5' onClick={()=>{
       window.open('https://github.com/Norhanahmedsaber/HANT_POS', '_blank')

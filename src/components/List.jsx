@@ -2,10 +2,12 @@ import React from 'react'
 import Experience from './Experience'
 import Experience2 from './Experience2'
 import Experience3 from './Experience3'
-import Project from './Project'
-import Project2 from './Project2'
-import Project3 from './Project3'
-import Project4 from './Project4'
+import Management from './Managment'
+import Broadcast from './Broadcast'
+import Natega from './Natega'
+import POS from './POS'
+import Electronics from './Electronics'
+import Survey from './Survey'
 
 export default function List() {
   return (
@@ -29,15 +31,17 @@ export default function List() {
             <Experience3 />
         </div>
         <div onClick={()=>{
-          window.open('../../public/Anas Hesham.pdf', '_blank')
+          window.open('../../Anas_Hesham.pdf', '_blank')
         }} className='my-2 w-fit flex justify-center items-center border-b-2 text-white cursor-pointer trans hover:border-b-2 hover:border-b-teal-400'>
           View Full Resumé
         </div>
         <div className='h-20 my-20 w-full'></div>
-        <Project4 />
-        <Project />
-        <Project3 />
-        <Project2 />
+        <Management />
+        <Broadcast />
+        <Natega />
+        <Survey />
+        <POS />
+        <Electronics />
         <div onClick={()=>{
           window.open('https://www.github.com/anas12312', '_blank')
         }} className='my-2 w-fit flex justify-center items-center border-b-2 text-white cursor-pointer trans hover:border-b-2 hover:border-b-teal-400'>

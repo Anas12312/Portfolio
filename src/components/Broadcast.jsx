@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Project4() {
+export default function Broadcast() {
   return (
     <div className='w-2/3 flex p-5 hover:bg-[#283b64] rounded-lg trans cursor-pointer mb-5' onClick={()=>{
-      window.open('https://github.com/Norhanahmedsaber/HANT_POS', '_blank')
+      window.open('https://az-broadcast.onrender.com', '_blank')
     }}>
       <div className='w-1/4 text-sm text-white mt-1 flex justify-center items-start'>
         <img className='rounded-md' src="../../broadcast.png" alt="" />
