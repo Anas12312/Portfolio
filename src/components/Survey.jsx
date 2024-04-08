@@ -13,8 +13,7 @@ export default function Survey() {
           <div className='text-white text-lg'>Survey and Quiz Builder</div>
           <div className='text-sm mt-2'>
             <div className='mb-2'>
-              A platform that holds team resources like <span className='text-white'>links, files and images</span> in an organized matter, 
-              has a <span className='text-white'>task managment</span> and <span className='text-white'>notes app</span> integrated in it 
+              A simple survey and quiz builder for feedback, surveys and advertising 
             </div>
           </div>
           <div className='mt-4 text-xs'>

@@ -8,6 +8,7 @@ import Natega from './Natega'
 import POS from './POS'
 import Electronics from './Electronics'
 import Survey from './Survey'
+import ChatBot from './ChatBot'
 
 export default function List() {
   return (
@@ -38,6 +39,7 @@ export default function List() {
         <div className='h-20 my-20 w-full'></div>
         <Management />
         <Broadcast />
+        <ChatBot />
         <Natega />
         <Survey />
         <POS />
