@@ -9,6 +9,7 @@ import POS from './POS'
 import Electronics from './Electronics'
 import Survey from './Survey'
 import ChatBot from './ChatBot'
+import Vectorize from './Vectorize'
 
 export default function List() {
   return (
@@ -41,6 +42,7 @@ export default function List() {
         <Broadcast />
         <ChatBot />
         <Natega />
+        <Vectorize />
         <Survey />
         <POS />
         <Electronics />
