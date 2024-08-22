@@ -1,7 +1,6 @@
 import React from 'react'
 import Experience from './Experience'
 import Experience2 from './Experience2'
-import Experience3 from './Experience3'
 import Management from './Managment'
 import Broadcast from './Broadcast'
 import Natega from './Natega'
@@ -10,6 +9,7 @@ import Electronics from './Electronics'
 import Survey from './Survey'
 import ChatBot from './ChatBot'
 import Vectorize from './Vectorize'
+import HANTER from './HANTER'
 
 export default function List() {
   return (
@@ -30,22 +30,22 @@ export default function List() {
         <div className='w-full mb-4'>
             <Experience />
             <Experience2 />
-            <Experience3 />
         </div>
         <div onClick={()=>{
-          window.open('../../Anas_Hesham.pdf', '_blank')
+          window.open('./anas.pdf', '_blank')
         }} className='my-2 w-fit flex justify-center items-center border-b-2 text-white cursor-pointer trans hover:border-b-2 hover:border-b-teal-400'>
           View Full Resumé
         </div>
         <div className='h-20 my-20 w-full'></div>
+        <HANTER />
         <Management />
         <Broadcast />
-        <ChatBot />
         <Natega />
+        <ChatBot />
         <Vectorize />
-        <Survey />
         <POS />
         <Electronics />
+        {/* <Survey /> */}
         <div onClick={()=>{
           window.open('https://www.github.com/anas12312', '_blank')
         }} className='my-2 w-fit flex justify-center items-center border-b-2 text-white cursor-pointer trans hover:border-b-2 hover:border-b-teal-400'>
